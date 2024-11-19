@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+use_frameworks!
+platform :ios, '15.3'
+
+target 'iosApp' do
+  # Pods for iosApp
+  pod "GoogleWebRTC"
+end
